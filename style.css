@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+/* Registation */
+
+.reg {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    display: none;
+    background-image: url(images/header__bg.png);
+    padding: 15px 30px;
+
+}
+.reg__title {
+
+}
+.reg__log {
+    margin-bottom: 10px;
+    padding: 4px;
+}
+.reg__btn {
+
+}
+
+/* 00000 */
+
+body, h1, h2, h3, p{
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul, ol{
+    padding: 0;
+}
+
+button{
+    border: none;
+}
+
+/* Header */
+body{
+    background-color: #1A232C;
+}
+
+.header-color{
+    background-color: #1a232c8f;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    width: 6%;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.right__nav {
+    width: 30%;
+}
+.nav__ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.ul__list {
+
+}
+.list__link {
+
+}
+.right__reg {
+    background-color: #01A4FF;
+    border-radius: 15px;
+    padding: 8px 25px;
+    box-shadow: 0 0 12px #01A4FF;
+}
+
+/* Main */
+
+.main {
+    background-color: #0D1313;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+}
+.main__title{
+    display: flex;
+    background-image: url(images/header__bg.png);
+    height: 868px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 128px;
+}
+
+.title__text span{
+    color: #01FFFF;
+    text-shadow: 0 0 12px #01A4FF;
+}
+
+.main__ads {
+
+}
+
+.ads__set{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.set__btn{
+    margin-left: 25px;
+}
+
+.dis{
+    padding: 15px 30px;
+    background: none;
+    color: #4E4E4E;
+    border: 4px solid #686868;
+    border-radius: 14px;
+}
+
+.active{
+    color: #00A9A9;
+    padding: 15px 30px;
+    background: none;
+    border: 4px solid #00A9A9;
+    border-radius: 14px;
+}
+
+.filt{
+    display: flex;
+    color: white;
+    padding: 5px 27px;
+    background-color: #00AEAE;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.filt img{
+    width: 100%;
+}
+
+.ads1 {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.ads__annonc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.ads__annonc h1{
+    font-size: 40px;
+}
+
+.ads__annonc p{
+    font-size: 20px;
+}
+
+.ads__annonn {
+    display: flex;
+    flex-direction: column;
+}
+
+.ads__left {
+    margin-left: 20px;
+}
+.left__img{
+    width: 100%;
+}
+.annon__img {
+    width: 100%;
+}
+.ads__annon {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.ads__annon h1{
+    font-size: 40px;
+}
+
+.ads__annon p{
+    font-size: 20px;
+}
+
+.annon__img {
+
+}
+.ads__btnw {
+    background: linear-gradient(102.03deg, #00F5A0 0%, #00D9F5 100%);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-bottom: auto;
+    width: 20%;
+    font-size: 20px;
+}
+.ads__btn {
+    background: linear-gradient(102.03deg, #00F5A0 0%, #4CA9DF 0.01%, #00D9F5 100%);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-bottom: auto;
+    width: 20%;
+    font-size: 20px;
+}
+
+.ads__btnw1 {
+    background: linear-gradient(102.03deg, #00F5A0 0%, #00D9F5 100%);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-bottom: auto;
+    width: 20%;
+    font-size: 20px;
+}
+.ads__btn1 {
+    background: linear-gradient(102.03deg, #00F5A0 0%, #4CA9DF 0.01%, #00D9F5 100%);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-bottom: auto;
+    width: 20%;
+    font-size: 20px;
+}
+
+/* Media */
+
+@media (max-width: 1024px) {
+    .main__title {
+        font-size: 60px;
+    }
+    .header__right{
+        width: 60%;
+    }
+    .right__nav {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main__title {
+        font-size: 50px;
+    }
+    .header__right{
+        width: 60%;
+    }
+    .right__nav {
+        width: 60%;
+    }
+}
+
